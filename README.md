@@ -8,7 +8,7 @@ This is the **CertifyGen Companion** plugin for Moodle, developed as part of the
 
 ## Purpose
 
-Moodle does not natively allow activity plugins to create links in the "General" section of the admin settings. The CertifyGen Companion plugin addresses this limitation by providing a way to generate these menu entries besides "Certificate Tool", ensuring seamless integration and improved accessibility for administrators.
+Moodle does not natively allow activity plugins to create links in the "General" section of the admin settings for users that are not primary administrators. The CertifyGen Companion plugin addresses this limitation by providing a way to generate these menu entries besides "Certificate Tool", ensuring seamless integration and improved accessibility for manager-like users.
 
 ## Features
 

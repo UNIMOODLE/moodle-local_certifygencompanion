@@ -60,6 +60,14 @@ $teacherrequestreportsettings = new admin_externalpage(
     'mod/certifygen:viewcontextcertificates'
 );
 $ADMIN->add('certifygencat', $teacherrequestreportsettings);
+// See errors report.
+$showerrorssettings = new admin_externalpage(
+    'certifygenshowerrors',
+    get_string('certifygenerrors', 'certifygen'),
+    '/mod/certifygen/showerrors.php',
+    'mod/certifygen:manage'
+);
+$ADMIN->add('certifygencat', $showerrorssettings);
 // Search for ccertificates by code.
 $searchforcerts = new admin_externalpage(
     'certifygensearchfor',

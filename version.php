@@ -33,9 +33,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_certifygencompanion';
-$plugin->version = 2024103100;
+$plugin->version = 2025112100;
 $plugin->requires = 2022111800;
-$plugin->release = '1.0.0';
+$plugin->release = '1.0.1';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->dependencies = [
     'mod_certifygen' => 2024102500,
